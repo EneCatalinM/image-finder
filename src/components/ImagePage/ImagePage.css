@@ -1,0 +1,62 @@
+.image-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .loading-text,
+  .no-image-text {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .image-display {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .accept-button,
+  .reject-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .accept-button {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .reject-button {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .accept-button:hover {
+    background-color: #45a049;
+  }
+  
+  .reject-button:hover {
+    background-color: #e53935;
+  }
+  
